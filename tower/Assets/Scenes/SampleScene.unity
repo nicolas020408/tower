@@ -362,7 +362,7 @@ MonoBehaviour:
   turretRotationPoint: {fileID: 1322980433}
   enemyMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   targetingRange: 3
 --- !u!4 &80615040
 Transform:
