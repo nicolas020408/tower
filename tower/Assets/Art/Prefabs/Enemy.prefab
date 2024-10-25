@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 8087192893360488744}
   - component: {fileID: 6483112552233732652}
   - component: {fileID: -8095972965280450940}
-  - component: {fileID: -6159553103869170276}
+  - component: {fileID: -85400480044591368}
   m_Layer: 0
-  m_Name: enimy
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,7 +164,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-6159553103869170276
+--- !u!114 &-85400480044591368
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,3 +176,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 771b3448caff8e34fa46eb353343412a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitPoints: 2
